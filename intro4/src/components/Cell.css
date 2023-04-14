@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+
+p, li {
+    font-family: Poppins;
+}
+
+
+.Cell {
+    display:flex ;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    width: 176px;
+    align-items: center;
+}
+
+.Image {
+    position: relative;
+    margin-bottom:4px ;
+}
+
+.Image .Soldout {
+    background-color:white ;
+    border: solid 1px grey;
+    border-radius: 2px;
+    width: 61px;
+    height: 20px;
+    font-size: 10px;
+    text-align: center;
+    position: absolute;
+    left:6px;
+    top: 6px;
+    margin: 0px;
+}
+
+.Image img {
+    width: 176px;
+}
+
+.Rating {
+    display: flex;
+    flex-direction: row;
+    width: 176px;
+    height: 20px;
+    /* justify-content: space-between; */
+}
+
+.Rating .Star {
+    width: 14px;
+    height: 14px;
+}
+
+.Rating .Txtrating {
+    margin: 0px;
+    margin-left: 3px;
+}
+
+.Imginfo {
+    /* position: absolute; */
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    max-width: 176px;
+    font-size: 12px;
+}
+
+.Imginfo em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+

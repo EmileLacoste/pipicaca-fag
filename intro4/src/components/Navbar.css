@@ -1,0 +1,15 @@
+
+.Navbar {
+    display: flex;
+    /* background-color: gray; */
+    margin: 0px;
+    padding: 22px 30px;
+    height: 70px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    
+}
+
+.Navbar .logo {
+    width: 82px;
+    max-width: 100px;
+}

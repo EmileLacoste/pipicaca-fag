@@ -1,0 +1,42 @@
+
+
+
+.Hero {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Hero img {
+    margin: 36px 77px 0px 77px;
+    padding: 0px;
+    max-width: 500px;
+    align-self: center;
+}
+
+.Hero h1 {
+    margin-top: 32px;
+    padding: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 110%;
+}
+
+.Hero p {
+    margin-top: 16px;
+    padding: 0px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 16px;
+    color: #222222;
+    max-width: 320px;
+    margin-top: 16px ;
+    line-height: 110%;
+
+}
+
+.Hero h1, .Hero p {
+    margin-left: 36px;
+}

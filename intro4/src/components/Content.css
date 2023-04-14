@@ -1,0 +1,7 @@
+.Content {
+    display: flex;
+}
+
+.Cell {
+    margin-right: 18px;
+}
